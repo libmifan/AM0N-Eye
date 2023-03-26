@@ -1,0 +1,6 @@
+#!/bin/bash
+#
+# Start AM0N-Eye Team Server
+#
+
+./TeamServerImage -Dcobaltstrike.server_port=50050 -Dcobaltstrike.server_bindto=0.0.0.0 -Djavax.net.ssl.keyStore=./stor.c -Djavax.net.ssl.keyStorePassword=123456 teamserver $*
